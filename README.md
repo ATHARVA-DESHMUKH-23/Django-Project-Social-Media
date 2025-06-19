@@ -5,9 +5,13 @@ Task done.
 Setup Notes
 
 python -m venv env
+
 env\Scripts\activate
+
 pip install django
+
 cd Django-Project-Social-Media/social_book
+
 python manage.py runserver
 
 
