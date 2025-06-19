@@ -3,19 +3,19 @@ this is colabrative project with sumit and rajvardhan.
 Task done.
 
 Setup Notes
+    
+    python -m venv env
+    
+    env\Scripts\activate
+    
+    pip install django
+    
+    cd Django-Project-Social-Media/social_book
+    
+    python manage.py runserver
 
-python -m venv env
 
-env\Scripts\activate
-
-pip install django
-
-cd Django-Project-Social-Media/social_book
-
-python manage.py runserver
-
-
-
+Update Log
 1.[20june25]Atharva : basic setup + routing.
 
 video link:- https://www.youtube.com/watch?v=xSUm6iMtREA&t=291s
