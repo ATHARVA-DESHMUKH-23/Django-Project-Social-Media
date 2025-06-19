@@ -1,6 +1,6 @@
-# Django-Project-Social-Media
-this is colabrative project with sumit and rajvardhan
-Task done
+# Django-Project-Social-Media,
+this is colabrative project with sumit and rajvardhan.
+Task done.
 1.[20june25]Atharva : basic setup + routing.
 
 video link:- https://www.youtube.com/watch?v=xSUm6iMtREA&t=291s
