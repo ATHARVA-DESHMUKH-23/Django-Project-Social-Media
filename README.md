@@ -10,6 +10,8 @@ Setup Notes
     
     pip install django
     
+    git clone https://github.com/ATHARVA-DESHMUKH-23/Django-Project-Social-Media.git
+    
     cd Django-Project-Social-Media/social_book
     
     python manage.py runserver
