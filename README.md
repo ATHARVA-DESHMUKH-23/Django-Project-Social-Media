@@ -1,6 +1,6 @@
 # Django-Project-Social-Media,
 
-this is colabrative project with Atarva Deshmukh sumit and rajvardhan.
+this is colabrative project with Atarva Deshmukh Sumit Shelwane and Rajvardhan.
 
 Setup Notes
     
