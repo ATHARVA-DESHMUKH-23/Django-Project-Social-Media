@@ -77,7 +77,7 @@ update status
 
 - [ ] media/ → placeholder assets
 
-###🔌Athrva DEshmukh: API + Logic (Posts, Likes, Follow)
+### 🔌Athrva DEshmukh: API + Logic (Posts, Likes, Follow)
 #### 🎥 Video Sections:
 - (0:36:47) Profile Model
 
