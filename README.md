@@ -1,4 +1,5 @@
 # Django-Project-Social-Media,
+
 this is colabrative project with Atarva Deshmukh sumit and rajvardhan.
 
 Setup Notes
@@ -13,78 +14,88 @@ Setup Notes
     
     python manage.py runserver
 
+PULL notes
+    git pull --rebase origin
 
-Update Log
+PUSH BACK notes
 
-1.[20june25]Atharva : basic setup + routing.
+    git status
+    git add .
+    git commit -m 'modified'
+    git push origin main
 
-video link:- https://www.youtube.com/watch?v=xSUm6iMtREA&t=291s
+testing push request
 
-Sumit Task: Backend Auth (Login, Signup, Account)
-🎥 Video Sections:
-(1:00:31) Signup
+update status
+    - 20june25 Atharva : basic setup + routing.
 
-(1:33:11) Signin and Logout
+[video link](https://www.youtube.com/watch?v=xSUm6iMtREA&t=291s) 
 
-(1:47:55) Account Settings
+### Sumit Task: Backend Auth (Login, Signup, Account)
+#### 🎥 Video Sections:
+- (1:00:31) Signup
 
-🗂️ Files/Directories:
-core/views.py → signup, signin, logout, settings
+- (1:33:11) Signin and Logout
 
-core/urls.py
+- (1:47:55) Account Settings
 
-templates/signup.html
+#### 🗂️ Files/Directories:
+- [ ] core/views.py → signup, signin, logout, settings
 
-templates/signin.html
+- [ ] core/urls.py
 
-templates/setting.html
+- [ ] templates/signup.html
 
-core/models.py (for any user/profile link)
+- [ ] templates/signin.html
 
-social_book/settings.py (for auth settings)
+- [ ] templates/setting.html
 
-🎨 Rajvardhan Deshmukh: Frontend UI (Templates, Static Files)
-🎥 Video Sections:
-(0:23:06) Template Setup
+- [ ] core/models.py (for any user/profile link)
 
-(0:27:52) Static Files
+- [ ] social_book/settings.py (for auth settings)
 
-(2:49:55) Post Feed UI
+### 🎨 Rajvardhan Deshmukh: Frontend UI (Templates, Static Files)
+#### 🎥 Video Sections:
+- (0:23:06) Template Setup
 
-(3:20:50) Profile Page
+- (0:27:52) Static Files
 
-(4:18:35) Download Images
+- (2:49:55) Post Feed UI
 
-(4:38:18) User Suggestions
+- (3:20:50) Profile Page
 
-🗂️ Files/Directories:
-templates/ → index.html, profile.html, search.html, setting.html, etc.
+- (4:18:35) Download Images
 
-static/ → all CSS/JS/image folders
+- (4:38:18) User Suggestions
 
-media/ → placeholder assets
+#### 🗂️ Files/Directories:
+- [ ] templates/ → index.html, profile.html, search.html, setting.html, etc.
 
-🔌Athrva DEshmukh: API + Logic (Posts, Likes, Follow)
-🎥 Video Sections:
-(0:36:47) Profile Model
+- [ ] static/ → all CSS/JS/image folders
 
-(2:17:00) Uploading Post
+- [ ] media/ → placeholder assets
 
-(3:00:22) Like Post
+###🔌Athrva DEshmukh: API + Logic (Posts, Likes, Follow)
+#### 🎥 Video Sections:
+- (0:36:47) Profile Model
 
-(3:37:20) Follow and Unfollow User
+- (2:17:00) Uploading Post
 
-(4:10:23) Post Feed Updated
+- (3:00:22) Like Post
 
-(4:21:03) Search User
+- (3:37:20) Follow and Unfollow User
 
-🗂️ Files/Directories:
-core/models.py → Profile, Post, Like, Follow models
+- (4:10:23) Post Feed Updated
 
-core/views.py → upload post, like/unlike, follow/unfollow, search
+- (4:21:03) Search User
 
-core/admin.py → register models
+#### 🗂️ Files/Directories:
+- [ ] core/models.py → Profile, Post, Like, Follow models
 
-core/migrations/
+- [ ] core/views.py → upload post, like/unlike, follow/unfollow, search
 
-media/post_images/, media/profile_images/
+- [ ] core/admin.py → register models
+
+- [ ] core/migrations/
+
+- [ ] media/post_images/, media/profile_images/
