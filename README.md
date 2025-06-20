@@ -90,7 +90,7 @@ update status
 - (4:21:03) Search User
 
 #### 🗂️ Files/Directories:
-- [ ] core/models.py → Profile, Post, Like, Follow models
+- [x] core/models.py → Profile, Post, Like, Follow models
 
 - [ ] core/views.py → upload post, like/unlike, follow/unfollow, search
 
