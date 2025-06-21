@@ -1,6 +1,10 @@
 # Django-Project-Social-Media,
 
 this is colabrative project with Atarva Deshmukh Sumit Shelwane and Rajvardhan.
+    Admin Login 
+    UserName=admin
+    emailid=atharvad2366@gmail.com
+    password=ASRO2366
 
 Setup Notes
     
