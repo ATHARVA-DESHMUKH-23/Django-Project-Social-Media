@@ -33,3 +33,6 @@ def signup(request):
  
     else:    
         return render(request, 'signup.html')
+
+def upload(request):
+    return HttpResponse('<h1>Upload Views</h1>')
