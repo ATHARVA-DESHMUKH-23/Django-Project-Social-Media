@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-heaa82a4hve2ijkeq2o(gd+4c3-&!i_89vi78i+07=ra=ksv$2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".replit.dev"]
 
 
 # Application definition
@@ -100,6 +100,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.replit.dev',  # allows all replit subdomains
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
@@ -127,5 +130,5 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR,'static'),)
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-MEDIA_URL='/MEDIA/'
-MEDIA_ROOT=os.path.join(BASE_DIR,'MEDIA')
+MEDIA_URL='/media/'
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')

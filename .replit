@@ -1,0 +1,20 @@
+modules = ["nodejs-20", "web", "python-3.12"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "run django"
+
+[[workflows.workflow]]
+name = "run django"
+mode = "sequential"
+author = 36754188
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python social_book/manage.py runserver 0.0.0.0:8000"
+
+[[ports]]
+localPort = 8000
+externalPort = 80
